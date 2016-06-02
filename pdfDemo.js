@@ -9,7 +9,7 @@ page.open(system.args[1], function(status){
 t = Date.now();
 z = Date.now();
 
-    while(z-t<30000)
+    while(z-t<60000)
     {
         z = Date.now();
     }
