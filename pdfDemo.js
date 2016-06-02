@@ -1,6 +1,6 @@
 var page = require('webpage').create();
 system = require("system");
-var fname = 'report.pdf';
+var fname = 'report.png';
 
 page.viewportSize = {width:800,height:600};
 page.paperSize = {format: 'Letter', orientation: 'portrait', border: '0.5in'};
